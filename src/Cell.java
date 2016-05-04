@@ -1,4 +1,4 @@
-
+d
 import java.util.ArrayList;
 
 /**
@@ -7,8 +7,8 @@ import java.util.ArrayList;
 public class Cell extends javafx.scene.control.Button{
     public boolean state;
     public boolean editable;
-    final String RED = "-fx-background-color: #ff0000;";
-    final String WHITE = "-fx-background-color: #ffffff;";
+    final static String RED = "-fx-background-color: #ff0000;";
+    final static String WHITE = "-fx-background-color: #ffffff;";
     int index;
 
     public Cell(int index) {
